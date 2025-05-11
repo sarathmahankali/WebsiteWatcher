@@ -1,0 +1,14 @@
+{
+
+  "ConnectionStrings": {
+    "ODBConnectionString": "Data Source=ITWW007LAP46730;Initial Catalog=odb;Integrated Security=True;TrustServerCertificate=True;",
+    "WebsiteWatcherStorage": "UseDevelopmentStorage=true"
+  },
+
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "WEBSITE_SITE_NAME" :  "WebsiteWatcher"
+  }
+}
