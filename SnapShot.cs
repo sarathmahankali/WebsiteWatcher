@@ -9,7 +9,7 @@ namespace WebsiteWatcher;
 
 public class SnapShot(ILogger<SnapShot> logger)
 {
-    [Function("SnapShot")]
+    [Function(nameof(SnapShot))]
     [SqlOutput("dbo.SnapShot" , "ODBConnectionString")]
     public SnapShotRecord? Run(
        [SqlTrigger("[dbo].[Websites]", "ODBConnectionString")] IReadOnlyList<SqlChange<Website>> changes)
