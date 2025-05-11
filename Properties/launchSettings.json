@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "WebsiteWatcher": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7115",
+      "launchBrowser": false
+    }
+  }
+}
